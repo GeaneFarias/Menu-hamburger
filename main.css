@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html{
+    overflow-x:hidden ;
+}
 .container{
     max-width: 1024px;
     width: 100%;
@@ -42,10 +45,12 @@ nav li{
 nav li a{
     color: #fff;
     text-decoration: none;
+    
 }
 
 .menu-hamburger{
     width: 32px;
+    cursor: pointer;
 }
 
 .menu-hamburger span{
@@ -55,4 +60,33 @@ nav li a{
     display: block;
     margin-bottom: 2px;
 
+}
+
+.conteiner-flex{
+    display: flex;
+}
+
+#sobre-a-loja img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px ;
+}
+
+#lista-veiculo li{
+    list-style: none;
+    max-width: 30%;
+}
+
+#lista-veiculo li img{
+    max-width: 100;
+}
+
+.lista-veiculos{
+    margin: 16px 0;
 }
