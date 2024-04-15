@@ -13,13 +13,14 @@ html{
     margin: 0 auto;
 }
 
-header{
+header, footer{
     background-color: #192a56;
     padding-top: 16px ;
     color: #fff
 }
 
-header > .container{
+header > .container,
+footer > .container{    
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px;
@@ -97,7 +98,7 @@ section h2{
     margin: 0 5%;
 }
 
-.lista-veiculos li button{
+button{
     display: block;
     width: 100%;
     padding: 9px 0;
@@ -120,3 +121,43 @@ section h2{
     color: red;
     font-size: 14px;
 }
+
+.form-Contatos{
+    margin-bottom: 16px;
+}
+
+.form-Contatos label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-Contatos input,
+.form-Contatos textarea{
+    width: 100%;
+    display: block;
+
+}
+
+.form-Contatos textarea{
+    resize: none;
+    height: 120px;
+}
+
+form{
+    max-width: 360px;
+}
+
+form button{
+    max-width: 120px;
+}
+
+footer li  {
+    list-style: none;
+    margin-left: 10px;
+}
+
+footer li img{
+    height: 32px;
+}
+
+
