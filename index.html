@@ -105,7 +105,7 @@
                         <del>R$ 100.000,00</del>
                         <strong>R$ 75.000,00</strong>
                     </div>
-                   
+                
                     <button type="button">Eu quero</button>
                 </li>
                 <li>
@@ -157,29 +157,29 @@
         </div>
     </section>
 
-    <section>
+    <section id="contato">
         <div class="container"> 
             <h2> Fale conosco</h2>
             <form>
                 <div class="form-Contatos">
                     <label for="nome">Nome</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" name="nome">
                 </div>
                 <div class="form-Contatos">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" id="tele">
+                    <input type="tel" id="tele" name="telefone">
                 </div>
                 <div class="form-Contatos">
                     <label for="email">E-email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email">
                 </div>
                 <div class="form-Contatos">
-                    <label for="veiculo-interesse">Nome</label>
-                    <input type="text" id="veiculo-interesse">
+                    <label for="veiculo-interesse">Modelo do veiculo</label>
+                    <input type="text" id="veiculo-interesse" name="modeloDoVeiculo">
                 </div>
                 <div class="form-Contatos">
-                    <label for="mesagem">Nome</label>
-                    <textarea id="mensagem"></textarea>
+                    <label for="mesagem">Mensagem</label>
+                    <textarea id="mensagem" name="menssagem"></textarea>
                 </div>
                 <button type="submit">Enviar</button>
             </form>
@@ -211,19 +211,10 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.carosel-imagens').slick({
-                autoplay:true,
-                arrows:false, //tira as setas
-
-            })
-            $('.menu-hamburger').click(function(){
-                $('nav').slideToggle()
-            })
-            
-        })
-    </script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./JS/main.js"> </script>
 </body>
 
 </html>

@@ -19,6 +19,13 @@ header, footer{
     color: #fff
 }
 
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index:1 ;
+}
+
 header > .container,
 footer > .container{    
     justify-content: space-between;
@@ -77,13 +84,13 @@ section{
 section h2{
     margin-bottom: 16px ;
 }
-.lista-veiculos{
-    flex-wrap: wrap;
+.lista-veiculos{  
+    flex-wrap: wrap;  
 }
 .lista-veiculos li{
     list-style: none;
     max-width: 30%;
-    margin-bottom: 24px;
+    margin-bottom: 34px;
 }
 
 .lista-veiculos li img{
